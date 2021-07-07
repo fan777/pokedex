@@ -1,0 +1,16 @@
+.Pokedex {
+  margin: auto;
+  width: 680px;
+  text-align: center;
+
+}
+
+.Pokedex-title {
+  color: gainsboro;
+}
+
+.Pokedex-cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
